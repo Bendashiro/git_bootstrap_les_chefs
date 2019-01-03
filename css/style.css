@@ -1,0 +1,36 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@font-face {
+  font-family: "flaticon";
+  src: url("../fonts/Flaticon.woff") format(woff);
+  font-family: "courgette";
+  src: url("../fonts/Courgette-Regular.ttf") format(ttf);
+}
+body {
+  font-family: "flaticon";
+}
+body h1 {
+  font-family: "courgette" !important;
+}
+body header.banner {
+  background-image: url("../images/banner1.jpg");
+  background-position-y: center;
+  background-size: cover;
+  height: 100vh;
+}
+body header.bgo {
+  background-color: black;
+  opacity: 0.5;
+}
+body header div nav {
+  max-width: 45%;
+  border-bottom: solid white 3px;
+  border-top: solid white 3px;
+  font-family: "flaticon";
+  padding-top: 0;
+  padding-bottom: 0;
+}
+body header h1 span.txtp {
+  font-size: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
