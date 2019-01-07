@@ -126,11 +126,9 @@ body
     section#team
         background-image: url("../images/team_background.jpg")
         padding: 5rem 0 2.5rem 0
-        div.container-fluid
-            div.row
-                    img
-                        border-bottom: 1px dimgray solid !important
-                        margin-bottom: 5px
+        img.b
+            border-bottom: 1px dimgray solid !important
+            margin-bottom: 5px
     section#booking
         background-image: url("../images/main_bg.jpg")
         padding-top: 2rem
@@ -139,6 +137,86 @@ body
             background-repeat: no-repeat
             background-position: left top, right top,left bottom, right bottom
             border: 1px solid $gray
+            padding-bottom: 5rem
+            padding-top: 5rem
             form
+                max-width: 70%
                 background-image: url("../images/book_table_bg.jpg")
-            
+                border-radius: 1rem
+                padding-bottom: 3rem
+                margin: 5rem 0
+                p
+                    padding: 3rem 0
+                    font-size: 1.35rem
+                    span
+                        font-weight: bold
+                
+                input,select
+                    margin-top: 0.5rem
+                    border-radius: 0.9rem
+                    border-style: none
+                    font-size: 18px
+                    width: 260px
+                input.pl,select.pl
+                    margin-right: 95px
+                input.pr,select.pr
+                    margin-left: 95px
+                
+                input
+                    display: inline-block
+                button
+                    background-color: $red
+                    border-radius: 5rem
+                    margin-top: 3rem
+                    // width: 120px(plus facile de changer avec les padding)
+                    // height: 50px
+                    font-size: 17px
+                    padding: 10px 15px
+            div.row.c
+                margin-top: 5rem
+                div.card
+                    border: none
+                    img
+                        border: solid 5px $gray
+                        border-radius: 1.5rem
+                    p.red
+                        background-color: $red
+                        width: 85%
+                        font-size: 1.3rem
+                        padding: 10px 0 7px 0
+                        position: relative
+                        bottom:40px
+                        left: 35px
+                        border-radius: 1rem
+                        span
+                            font-weight: bold
+                            font-size: 125%
+                    div.card-body
+                        font-family: 'flaticon'
+                        justify-content: left !important
+                        padding: 0
+                        text-align: left !important
+                        position: relative
+                        bottom: 40px
+            div.btn
+                background-color: $red
+                border-radius: 5rem
+                margin-top: 3rem
+                // width: 120px
+                // height: 50px
+                font-size: 17px
+                padding: 10px 15px
+    section#testimonial
+        background-image: url("../images/testimonials_background.jpg")
+        div.card
+            flex-direction: row
+            background: none
+            width: 50%
+            margin: 0
+            img
+                width: 60px
+                height: 60px
+            div.card-body
+                flex-direction: column
+                h6.card-subtitle
+                    color: $red !important

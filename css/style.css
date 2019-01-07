@@ -148,7 +148,7 @@ body section#team {
   background-image: url("../images/team_background.jpg");
   padding: 5rem 0 2.5rem 0;
 }
-body section#team div.container-fluid div.row img {
+body section#team img.b {
   border-bottom: 1px dimgray solid !important;
   margin-bottom: 5px;
 }
@@ -161,9 +161,103 @@ body section#booking div.container {
   background-repeat: no-repeat;
   background-position: left top, right top, left bottom, right bottom;
   border: 1px solid #cbcbcb;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 body section#booking div.container form {
+  max-width: 70%;
   background-image: url("../images/book_table_bg.jpg");
+  border-radius: 1rem;
+  padding-bottom: 3rem;
+  margin: 5rem 0;
+}
+body section#booking div.container form p {
+  padding: 3rem 0;
+  font-size: 1.35rem;
+}
+body section#booking div.container form p span {
+  font-weight: bold;
+}
+body section#booking div.container form input, body section#booking div.container form select {
+  margin-top: 0.5rem;
+  border-radius: 0.9rem;
+  border-style: none;
+  font-size: 18px;
+  width: 260px;
+}
+body section#booking div.container form input.pl, body section#booking div.container form select.pl {
+  margin-right: 95px;
+}
+body section#booking div.container form input.pr, body section#booking div.container form select.pr {
+  margin-left: 95px;
+}
+body section#booking div.container form input {
+  display: inline-block;
+}
+body section#booking div.container form button {
+  background-color: #d52241;
+  border-radius: 5rem;
+  margin-top: 3rem;
+  font-size: 17px;
+  padding: 10px 15px;
+}
+body section#booking div.container div.row.c {
+  margin-top: 5rem;
+}
+body section#booking div.container div.row.c div.card {
+  border: none;
+}
+body section#booking div.container div.row.c div.card img {
+  border: solid 5px #cbcbcb;
+  border-radius: 1.5rem;
+}
+body section#booking div.container div.row.c div.card p.red {
+  background-color: #d52241;
+  width: 85%;
+  font-size: 1.3rem;
+  padding: 10px 0 7px 0;
+  position: relative;
+  bottom: 40px;
+  left: 35px;
+  border-radius: 1rem;
+}
+body section#booking div.container div.row.c div.card p.red span {
+  font-weight: bold;
+  font-size: 125%;
+}
+body section#booking div.container div.row.c div.card div.card-body {
+  font-family: "flaticon";
+  justify-content: left !important;
+  padding: 0;
+  text-align: left !important;
+  position: relative;
+  bottom: 40px;
+}
+body section#booking div.container div.btn {
+  background-color: #d52241;
+  border-radius: 5rem;
+  margin-top: 3rem;
+  font-size: 17px;
+  padding: 10px 15px;
+}
+body section#testimonial {
+  background-image: url("../images/testimonials_background.jpg");
+}
+body section#testimonial div.card {
+  flex-direction: row;
+  background: none;
+  width: 50%;
+  margin: 0;
+}
+body section#testimonial div.card img {
+  width: 60px;
+  height: 60px;
+}
+body section#testimonial div.card div.card-body {
+  flex-direction: column;
+}
+body section#testimonial div.card div.card-body h6.card-subtitle {
+  color: #d52241 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
