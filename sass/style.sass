@@ -11,12 +11,10 @@ body
     h1,h2,h3,h4,h5,h6
         font-family: 'courgette' !important
     header.banner
-        // position: absolute
-        background-image: url("../images/banner1.jpg"), url("../images/bottom_decoration_img.png")
-        background-position-y: center, bottom
-        // background-position-x: center
-        background-size: cover, contain
-        background-repeat: no-repeat, repeat
+        background-image: url("../images/banner1.jpg")
+        background-position-y: center
+        background-size: cover
+        background-repeat: no-repeat
         height: 100vh
     header
         overflow: hidden
@@ -36,9 +34,10 @@ body
                 a
                     padding: 17px 16px !important
                     color: white
-                a.active
+                a:hover
                     background-color: $red !important
                     border-radius: 0 !important
+                    color: silver
             img
                 vertical-align: top !important
         h1
@@ -71,17 +70,13 @@ body
             border: 1px solid $gray 
             div.row
                 padding-bottom: 6rem
-                div.col-2
+                a
                     border-right: 1px solid $gray
-                    // border-bottom: 1px solid $gray
+                    border-bottom: 1px solid $gray
                     padding-top: 15px
-                    i
-                        color: $gray
-                        border-bottom: 1px solid $gray
-                        padding: 0 50px
-                        h4
-                            color: initial
-                            margin-top: 5px
+                    h4
+                        color: initial
+                        margin-top: 5px
                 div.col-2.bo
                     border-bottom: none
                     padding-bottom: 118px
@@ -92,10 +87,9 @@ body
                         padding: 0 30px !important
                         h4
                             margin-top: 5px
-
                 div.col-4.bol
                     border-left: solid 1px $gray !important
-                div.col-4
+                div.col-6
                     margin: 20px 16px 0 16px
                     border-bottom: 1px dotted $gray
                     padding: 0
@@ -125,7 +119,6 @@ body
                         margin-left: 15px
     section#team
         background-image: url("../images/team_background.jpg")
-        // padding: 5rem 0 2.5rem 0
         img.b
             border-bottom: 1px dimgray solid !important
             margin-bottom: 5px
@@ -253,21 +246,24 @@ body
     footer
         background-image: url("../images/footer_background.jpg")
         background-size: cover
-        div.container-fluid
-            div.row
-                padding: 3rem
-                h4
-                    font-family: 'flaticon' !important
-                img
-                    margin: 6px
-                div.fl
-                    display: inline-block    
-                    span
-                        background-color: $red
-                        border-radius: 25rem
-                        padding: 10px 8px
-                        margin: 0 5px
-                        border: solid white 1px
+        div.bgo
+            background: url('../images/footer_bottom_decoration_img.png') top repeat-x
+            height: 100%
+            div.container-fluid
+                div.row
+                    padding: 3rem
+                    h4
+                        font-family: 'flaticon' !important
+                    img
+                        margin: 6px
+                    div.fl
+                        display: inline-block    
+                        span
+                            background-color: $red
+                            border-radius: 25rem
+                            padding: 10px 8px
+                            margin: 0 5px
+                            border: solid white 1px
     section#red
         background-color: $red
         color: red

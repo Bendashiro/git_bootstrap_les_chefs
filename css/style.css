@@ -13,10 +13,10 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "courgette" !important;
 }
 body header.banner {
-  background-image: url("../images/banner1.jpg"), url("../images/bottom_decoration_img.png");
-  background-position-y: center, bottom;
-  background-size: cover, contain;
-  background-repeat: no-repeat, repeat;
+  background-image: url("../images/banner1.jpg");
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
 }
 body header {
@@ -42,9 +42,10 @@ body header div nav a {
   padding: 17px 16px !important;
   color: white;
 }
-body header div nav a.active {
+body header div nav a:hover {
   background-color: #d52241 !important;
   border-radius: 0 !important;
+  color: silver;
 }
 body header div img {
   vertical-align: top !important;
@@ -86,16 +87,12 @@ body section#about div.container {
 body section#about div.container div.row {
   padding-bottom: 6rem;
 }
-body section#about div.container div.row div.col-2 {
+body section#about div.container div.row a {
   border-right: 1px solid #cbcbcb;
+  border-bottom: 1px solid #cbcbcb;
   padding-top: 15px;
 }
-body section#about div.container div.row div.col-2 i {
-  color: #cbcbcb;
-  border-bottom: 1px solid #cbcbcb;
-  padding: 0 50px;
-}
-body section#about div.container div.row div.col-2 i h4 {
+body section#about div.container div.row a h4 {
   color: initial;
   margin-top: 5px;
 }
@@ -116,27 +113,27 @@ body section#about div.container div.row div.col-2.red i.fa-mug-hot h4 {
 body section#about div.container div.row div.col-4.bol {
   border-left: solid 1px #cbcbcb !important;
 }
-body section#about div.container div.row div.col-4 {
+body section#about div.container div.row div.col-6 {
   margin: 20px 16px 0 16px;
   border-bottom: 1px dotted #cbcbcb;
   padding: 0;
 }
-body section#about div.container div.row div.col-4 img {
+body section#about div.container div.row div.col-6 img {
   border: solid 3px #cbcbcb;
   border-radius: 100%;
   width: 90px;
   height: 90px;
 }
-body section#about div.container div.row div.col-4 div p {
+body section#about div.container div.row div.col-6 div p {
   padding-top: 20px;
   padding-left: 15px;
   text-align: left;
   line-height: 1.2;
 }
-body section#about div.container div.row div.col-4 div p span {
+body section#about div.container div.row div.col-6 div p span {
   font-weight: bolder;
 }
-body section#about div.container div.row div.col-4 span.badge {
+body section#about div.container div.row div.col-6 span.badge {
   background-color: #eeeeee;
   color: #d52241;
   font-size: 20px;
@@ -305,19 +302,23 @@ body footer {
   background-image: url("../images/footer_background.jpg");
   background-size: cover;
 }
-body footer div.container-fluid div.row {
+body footer div.bgo {
+  background: url("../images/footer_bottom_decoration_img.png") top repeat-x;
+  height: 100%;
+}
+body footer div.bgo div.container-fluid div.row {
   padding: 3rem;
 }
-body footer div.container-fluid div.row h4 {
+body footer div.bgo div.container-fluid div.row h4 {
   font-family: "flaticon" !important;
 }
-body footer div.container-fluid div.row img {
+body footer div.bgo div.container-fluid div.row img {
   margin: 6px;
 }
-body footer div.container-fluid div.row div.fl {
+body footer div.bgo div.container-fluid div.row div.fl {
   display: inline-block;
 }
-body footer div.container-fluid div.row div.fl span {
+body footer div.bgo div.container-fluid div.row div.fl span {
   background-color: #d52241;
   border-radius: 25rem;
   padding: 10px 8px;

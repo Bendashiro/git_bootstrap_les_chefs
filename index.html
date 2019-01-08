@@ -18,7 +18,7 @@
                 <nav class="navbar navbar-expand">
                     <ul class="nav nav nav-pills justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase active" href="#">home</a>
+                            <a class="nav-link text-uppercase" href="#">home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-uppercase" href="#about">about us</a>
@@ -74,137 +74,590 @@
                 cumque voluptates. Deleniti cumque blanditiis harum?</p>
             <h1><span class="text-uppercase">our</span> Menu List</h1>
             <img src="./images/decoration_line.png" alt="" class="img-fluid">
-            <div id="menu" class="row">
-                <div class="col-2 red align-self-start">
-                    <i class="fas fa-mug-hot fa-4x">
-                        <h4>Breakfeast</h4>
-                    </i>
-                </div>
-                <div class="col-4 col-sm-12 col-md-6 col-lg d-flex">
-                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
-                    <div>
-                        <p>
-                            <span>Dear Steak with Potatoes</span><br>
-                            Welcome to Risotto restaurant<br>
-                            website.Here we try to share our
-                        </p>
-                    </div>
-                    <span class="badge badge-secondary">$25</span>
-                </div>
-                <div class="col-4 col-sm-12 col-md-6 col-lg d-flex mr-auto">
-                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
-                    <div>
-                        <p>
-                            <span>Dear Steak with Potatoes</span><br>
-                            Welcome to Risotto restaurant<br>
-                            website.Here we try to share our
-                        </p>
-                    </div>
-                    <span class="badge badge-secondary">$35</span>
-                </div>
+            <div class="row">
                 <div class="col-2">
-                    <i class="fas fa-utensils fa-4x">
-                        <h4>Lunch</h4>
-                    </i>
-                </div>
-                <div class="col-4 col-sm-12 col-md-6 col-lg d-flex">
-                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
-                    <div>
-                        <p>
-                            <span>Dear Steak with Potatoes</span><br>
-                            Welcome to Risotto restaurant<br>
-                            website.Here we try to share our
-                        </p>
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                            aria-controls="v-pills-home" aria-selected="true">
+                            <i class="fas fa-mug-hot fa-4x">
+                                <h4>Breakfeast</h4>
+                            </i>
+                        </a>
+                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                            aria-controls="v-pills-profile" aria-selected="false">
+                            <i class="fas fa-utensils fa-4x">
+                                <h4>Lunch</h4>
+                            </i>
+                        </a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+                            aria-controls="v-pills-messages" aria-selected="false">
+                            <i class="fas fa-concierge-bell fa-4x">
+                                <h4>Snacks</h4>
+                            </i>
+                        </a>
+                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                            aria-controls="v-pills-settings" aria-selected="false">
+                            <i class="fas fa-mug-hot fa-4x">
+                                <h4>Dinner</h4>
+                            </i>
+                        </a>
                     </div>
-                    <span class="badge badge-secondary">$25</span>
                 </div>
-                <div class="col-4 col-sm-12 col-md-6 col-lg d-flex mr-auto">
-                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
-                    <div>
-                        <p>
-                            <span>Dear Steak with Potatoes</span><br>
-                            Welcome to Risotto restaurant<br>
-                            website.Here we try to share our
-                        </p>
+                <div class="col-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <div class="row">
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <div class="row">
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <div class="row">
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <div class="row">
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_2.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                            <div class="row">
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_3.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_3.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_3.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_3.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_3.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_3.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_3.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_3.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <div class="row">
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_4.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_4.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_4.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_4.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_4.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_4.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img src="./images/menu_image_4.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$25</span>
+                                </div>
+                                <div class="col-6 col-lg d-flex mr-auto">
+                                    <img src="./images/menu_image_4.jpg" alt="" class="img-fluid">
+                                    <div>
+                                        <p>
+                                            <span>Dear Steak with Potatoes</span><br>
+                                            Welcome to Risotto restaurant<br>
+                                            website.Here we try to share our
+                                        </p>
+                                    </div>
+                                    <span class="badge badge-secondary">$35</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <span class="badge badge-secondary">$35</span>
-                </div>
-                <div class="col-2">
-                    <i class="fas fa-concierge-bell fa-4x">
-                        <h4>Snacks</h4>
-                    </i>
-                </div>
-                <div class="col-4 col-sm-12 col-md-6 col-lg d-flex">
-                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
-                    <div>
-                        <p>
-                            <span>Dear Steak with Potatoes</span><br>
-                            Welcome to Risotto restaurant<br>
-                            website.Here we try to share our
-                        </p>
-                    </div>
-                    <span class="badge badge-secondary">$25</span>
-                </div>
-                <div class="col-4 col-sm-12 col-md-6 col-lg d-flex mr-auto">
-                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
-                    <div>
-                        <p>
-                            <span>Dear Steak with Potatoes</span><br>
-                            Welcome to Risotto restaurant<br>
-                            website.Here we try to share our
-                        </p>
-                    </div>
-                    <span class="badge badge-secondary">$35</span>
-                </div>
-                <div class="col-2">
-                    <i class="fas fa-mug-hot fa-4x">
-                        <h4>Dinner</h4>
-                    </i>
-                </div>
-                <div class="col-4 col-sm-12 col-md-6 col-lg d-flex">
-                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
-                    <div>
-                        <p>
-                            <span>Dear Steak with Potatoes</span><br>
-                            Welcome to Risotto restaurant<br>
-                            website.Here we try to share our
-                        </p>
-                    </div>
-                    <span class="badge badge-secondary">$25</span>
-                </div>
-                <div class="col-4 col-sm-12 col-md-6 col-lg d-flex mr-auto">
-                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
-                    <div>
-                        <p>
-                            <span>Dear Steak with Potatoes</span><br>
-                            Welcome to Risotto restaurant<br>
-                            website.Here we try to share our
-                        </p>
-                    </div>
-                    <span class="badge badge-secondary">$35</span>
-                </div>
-                <div class="col-2 bo"></div>
-                <div class="col-4 col-sm-12 col-md-6 col-lg d-flex">
-                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
-                    <div>
-                        <p>
-                            <span>Dear Steak with Potatoes</span><br>
-                            Welcome to Risotto restaurant<br>
-                            website.Here we try to share our
-                        </p>
-                    </div>
-                    <span class="badge badge-secondary">$25</span>
-                </div>
-                <div class="col-4 col-sm-12 col-md-6 col-lg d-flex mr-auto">
-                    <img src="./images/menu_image_1.jpg" alt="" class="img-fluid">
-                    <div>
-                        <p>
-                            <span>Dear Steak with Potatoes</span><br>
-                            Welcome to Risotto restaurant<br>
-                            website.Here we try to share our
-                        </p>
-                    </div>
-                    <span class="badge badge-secondary">$35</span>
                 </div>
             </div>
         </div>
@@ -355,48 +808,50 @@
         </div>
     </section>
     <footer>
-        <div class="container-fluid text-white">
-            <div class="row">
-                <div class="col-4">
-                    <h4 class="text-uppercase py-3">about us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
-                            sed do eiusmod tempor incididunt ut labore et dolore<br>
-                            magna aliqua.Ut enim as minim veniam,quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip
-                            ex.........
-                        </p>
-                        <i class="fab fa-facebook-f fa-2x mr-3"></i>
-                        <i class="fab fa-google-plus-g fa-2x mr-3"></i>
-                        <i class="fab fa-linkedin-in fa-2x mr-3"></i>
-                        <i class="fab fa-pinterest-p fa-2x mr-3"></i>
-                </div>
-                <div class="col-4">
-                    <h4 class="text-uppercase py-3">instagram</h2>
-                        <img src="./images/instragram_gallery_img1.jpg" alt="" class="">
-                        <img src="./images/instragram_gallery_img2.jpg" alt="" class="">
-                        <img src="./images/instragram_gallery_img1.jpg" alt="" class="">
-                        <img src="./images/instragram_gallery_img2.jpg" alt="" class="">
-                        <img src="./images/instragram_gallery_img1.jpg" alt="" class="">
-                        <img src="./images/instragram_gallery_img2.jpg" alt="" class="">
-                        <img src="./images/instragram_gallery_img1.jpg" alt="" class="">
-                        <img src="./images/instragram_gallery_img2.jpg" alt="" class="">
-                </div>
-                <div class="col-4">
-                    <h4 class="text-uppercase py-3">popular tags</h4>
-                    <div class="fl">
-                        <div class="pb-3">
-                            <span class="">Restaurant</span>
-                            <span class="">Responsive Designe</span>
-                            <span class="">Hotel</span>
-                        </div>
-                        <div class="py-3">
-                            <span>Blog Section</span>
-                            <span class="text-uppercase">seo</span>
-                            <span class="">Cuisine</span>
-                        </div>
-                        <div class="pt-3">
-                            <span class="">Graphic</span>
-                            <span class="">Food</span>
+        <div class="bgo">
+            <div class="container-fluid text-white">
+                <div class="row">
+                    <div class="col-4">
+                        <h4 class="text-uppercase py-3">about us</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+                                sed do eiusmod tempor incididunt ut labore et dolore<br>
+                                magna aliqua.Ut enim as minim veniam,quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip
+                                ex.........
+                            </p>
+                            <i class="fab fa-facebook-f fa-2x mr-3"></i>
+                            <i class="fab fa-google-plus-g fa-2x mr-3"></i>
+                            <i class="fab fa-linkedin-in fa-2x mr-3"></i>
+                            <i class="fab fa-pinterest-p fa-2x mr-3"></i>
+                    </div>
+                    <div class="col-4">
+                        <h4 class="text-uppercase py-3">instagram</h2>
+                            <img src="./images/instragram_gallery_img1.jpg" alt="" class="">
+                            <img src="./images/instragram_gallery_img2.jpg" alt="" class="">
+                            <img src="./images/instragram_gallery_img1.jpg" alt="" class="">
+                            <img src="./images/instragram_gallery_img2.jpg" alt="" class="">
+                            <img src="./images/instragram_gallery_img1.jpg" alt="" class="">
+                            <img src="./images/instragram_gallery_img2.jpg" alt="" class="">
+                            <img src="./images/instragram_gallery_img1.jpg" alt="" class="">
+                            <img src="./images/instragram_gallery_img2.jpg" alt="" class="">
+                    </div>
+                    <div class="col-4">
+                        <h4 class="text-uppercase py-3">popular tags</h4>
+                        <div class="fl">
+                            <div class="pb-3">
+                                <span class="">Restaurant</span>
+                                <span class="">Responsive Designe</span>
+                                <span class="">Hotel</span>
+                            </div>
+                            <div class="py-3">
+                                <span>Blog Section</span>
+                                <span class="text-uppercase">seo</span>
+                                <span class="">Cuisine</span>
+                            </div>
+                            <div class="pt-3">
+                                <span class="">Graphic</span>
+                                <span class="">Food</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -406,6 +861,14 @@
     <section id="red" class="text-center py-4">
         <p class="m-0">© Copyright 2019</p>
     </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
