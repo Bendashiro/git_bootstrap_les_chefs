@@ -67,13 +67,15 @@ body header div a.r {
   padding: 15px 35px;
   font-size: 15px;
 }
+body section {
+  padding: 3rem 0;
+}
 body section h1 span {
   color: #d52241 !important;
   font-size: 3.5rem;
 }
 body section#about {
   background-image: url("../images/main_bg.jpg");
-  padding: 2rem 0;
 }
 body section#about div.container {
   background-image: url("../images/box-left-top.png"), url("../images/box-right-top.png"), url("../images/box-bottom-left.png"), url("../images/box-bottom_right.png");
@@ -146,7 +148,6 @@ body section#about div.container div.row div.col-4 span.badge {
 }
 body section#team {
   background-image: url("../images/team_background.jpg");
-  padding: 5rem 0 2.5rem 0;
 }
 body section#team img.b {
   border-bottom: 1px dimgray solid !important;
@@ -154,7 +155,6 @@ body section#team img.b {
 }
 body section#booking {
   background-image: url("../images/main_bg.jpg");
-  padding-top: 2rem;
 }
 body section#booking div.container {
   background-image: url("../images/box-left-top-grey.png"), url("../images/box-right-top-grey.png"), url("../images/box-bottom-left-grey.png"), url("../images/box-bottom_right-grey.png");
@@ -243,21 +243,90 @@ body section#booking div.container div.btn {
 body section#testimonial {
   background-image: url("../images/testimonials_background.jpg");
 }
-body section#testimonial div.card {
+body section#testimonial div.row {
+  margin: 5rem;
+}
+body section#testimonial div.row div.card {
   flex-direction: row;
   background: none;
-  width: 50%;
-  margin: 0;
+  margin: 0 !important;
+  border: none;
+  width: 90%;
 }
-body section#testimonial div.card img {
-  width: 60px;
-  height: 60px;
+body section#testimonial div.row div.card img {
+  border-radius: 100%;
+  width: 140px;
+  height: 140px;
+  border: 5px solid #cbcbcb;
 }
-body section#testimonial div.card div.card-body {
+body section#testimonial div.row div.card div.pol, body section#testimonial div.row div.card img.pol {
+  position: relative;
+  left: 64px;
+}
+body section#testimonial div.row div.card div.bodyca {
   flex-direction: column;
+  text-align: left;
+  border: solid 1px white;
+  font-size: 15px;
+  padding: 15px 5px;
+  border-radius: 1rem;
 }
-body section#testimonial div.card div.card-body h6.card-subtitle {
+body section#testimonial div.row div.card div.bodyca h6.card-subtitle {
   color: #d52241 !important;
+}
+body section#testimonial div.row div.card.fdr {
+  flex-direction: row-reverse;
+}
+body section#contact {
+  background-image: url("../images/main_bg.jpg");
+}
+body section#contact h1 {
+  padding-bottom: 3rem;
+}
+body section#contact div.back {
+  display: flex;
+  flex-direction: column;
+  background-color: #d52241;
+  max-width: 35%;
+  border-radius: 1.25rem;
+  padding: 10px 25px;
+}
+body section#contact div.back i {
+  padding: 1.5rem 0 5px 0;
+}
+body section#contact div.back span {
+  font-weight: bold;
+}
+body section#contact div.back span.bor {
+  border-bottom: 1px solid white;
+  padding: 10px 0;
+}
+body footer {
+  background-image: url("../images/footer_background.jpg");
+  background-size: cover;
+}
+body footer div.container-fluid div.row {
+  padding: 3rem;
+}
+body footer div.container-fluid div.row h4 {
+  font-family: "flaticon" !important;
+}
+body footer div.container-fluid div.row img {
+  margin: 6px;
+}
+body footer div.container-fluid div.row div.fl {
+  display: inline-block;
+}
+body footer div.container-fluid div.row div.fl span {
+  background-color: #d52241;
+  border-radius: 25rem;
+  padding: 10px 8px;
+  margin: 0 5px;
+  border: solid white 1px;
+}
+body section#red {
+  background-color: #d52241;
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
