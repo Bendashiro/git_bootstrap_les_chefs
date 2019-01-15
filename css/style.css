@@ -17,7 +17,12 @@ body header.banner {
   background-position-y: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 800px;
+}
+body .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 body header {
   overflow: hidden;
@@ -63,7 +68,7 @@ body header div a.btn {
   padding: 15px 35px;
   font-size: 15px;
 }
-body header div a.r {
+body header div a.red {
   background-color: #d52241;
   padding: 15px 35px;
   font-size: 15px;
@@ -96,44 +101,37 @@ body section#about div.container div.row a h4 {
   color: initial;
   margin-top: 5px;
 }
-body section#about div.container div.row div.col-2.bo {
-  border-bottom: none;
-  padding-bottom: 118px;
-}
-body section#about div.container div.row div.col-2.red {
-  border-right: 5px solid #d52241;
-}
-body section#about div.container div.row div.col-2.red i.fa-mug-hot {
+body section#about div.container div.row a i.fa-mug-hot {
   color: #d52241;
   padding: 0 30px !important;
 }
-body section#about div.container div.row div.col-2.red i.fa-mug-hot h4 {
+body section#about div.container div.row a i.fa-mug-hot h4 {
   margin-top: 5px;
 }
-body section#about div.container div.row div.col-4.bol {
+body section#about div.container div.row div.col-xl-4.bol {
   border-left: solid 1px #cbcbcb !important;
 }
-body section#about div.container div.row div.col-6 {
-  margin: 20px 16px 0 16px;
+body section#about div.container div.row div.col-xl-6 {
+  margin: 20px 0px 0 0px;
   border-bottom: 1px dotted #cbcbcb;
-  padding: 0;
+  padding: 0 15px 0 0;
 }
-body section#about div.container div.row div.col-6 img {
+body section#about div.container div.row div.col-xl-6 img {
   border: solid 3px #cbcbcb;
   border-radius: 100%;
   width: 90px;
   height: 90px;
 }
-body section#about div.container div.row div.col-6 div p {
+body section#about div.container div.row div.col-xl-6 div p {
   padding-top: 20px;
   padding-left: 15px;
   text-align: left;
   line-height: 1.2;
 }
-body section#about div.container div.row div.col-6 div p span {
+body section#about div.container div.row div.col-xl-6 div p span {
   font-weight: bolder;
 }
-body section#about div.container div.row div.col-6 span.badge {
+body section#about div.container div.row div.col-xl-6 span.badge {
   background-color: #eeeeee;
   color: #d52241;
   font-size: 20px;

@@ -6,6 +6,9 @@
     src: url("../fonts/Flaticon.woff") format(woff)
     font-family: 'courgette'
     src: url('../fonts/Courgette-Regular.ttf') format(ttf)
+@media only screen and (min-device-width : 576px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2)
+
+
 body
     font-family: 'flaticon'
     h1,h2,h3,h4,h5,h6
@@ -15,7 +18,11 @@ body
         background-position-y: center
         background-size: cover
         background-repeat: no-repeat
-        height: 100vh
+        height: 800px
+    .carousel-indicators li
+        width: 10px
+        height: 10px
+        border-radius: 100%
     header
         overflow: hidden
         div.bgo
@@ -51,7 +58,7 @@ body
                 margin-right: 1rem
                 padding: 15px 35px
                 font-size: 15px
-            a.r
+            a.red
                 background-color: $red
                 padding: 15px 35px
                 font-size: 15px
@@ -77,22 +84,17 @@ body
                     h4
                         color: initial
                         margin-top: 5px
-                div.col-2.bo
-                    border-bottom: none
-                    padding-bottom: 118px
-                div.col-2.red
-                    border-right: 5px solid $red
                     i.fa-mug-hot
                         color: $red
                         padding: 0 30px !important
                         h4
                             margin-top: 5px
-                div.col-4.bol
+                div.col-xl-4.bol
                     border-left: solid 1px $gray !important
-                div.col-6
-                    margin: 20px 16px 0 16px
+                div.col-xl-6
+                    margin: 20px 0px 0 0px
                     border-bottom: 1px dotted $gray
-                    padding: 0
+                    padding: 0 15px 0 0
 
                     img
                         border: solid 3px $gray
@@ -164,7 +166,7 @@ body
                     // height: 50px
                     font-size: 17px
                     padding: 10px 15px
-            div.row.c
+            div.row.c //c correspond à la card
                 margin-top: 5rem
                 div.card
                     border: none
